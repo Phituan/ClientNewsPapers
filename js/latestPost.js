@@ -22,7 +22,7 @@ function getNews() {
                     news_item += '</div>';
                     news_item += '<div class="post-data">';
                     news_item += '<div class="post-meta">';
-                    news_item += '<a href="" class="post-title"><h6>' + obj.data[i].title + '</h6></a>';
+                    news_item += '<a href="single-post.html?id='+obj.data[i].link+'" class="post-title"><h6>' + obj.data[i].title + '</h6></a>';
                     news_item += '<p class="post-date"><span>' + obj.data[i].createdAtMLS +' </span></p>';
                     news_item += '</div>';
                     news_item += '</div>';

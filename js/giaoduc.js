@@ -10,7 +10,7 @@ function getNews() {
 
             if (this.readyState == 4 && this.status == 200) {
                 var obj = JSON.parse(xhttp.responseText);
-                for (var i = 0; i < obj.data.length; i++) {
+                for (var i = 0; i < 5; i++) {
                     var image;
                     if (obj.data[i].thumbnail == 0) {
                         image = "https://q5v8e3s3.stackpathcdn.com/wp-content/uploads/2019/04/news-default-image-300x225.jpg";
